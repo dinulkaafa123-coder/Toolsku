@@ -1,1 +1,57 @@
-<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ToolsKu — Tools Gratis</title><meta name="description" content="Tools gratis untuk bisnis: hitung keuntungan, harga jual, margin, diskon, BEP, ROI dan persentase."><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap nav"><b>ToolsKu</b><nav><a href="#tools">Tools</a><a href="#ai">AI Tools</a><a href="#faq">FAQ</a></nav></div></header><main><section class="hero wrap"><small>✦ GRATIS • CEPAT • TANPA DAFTAR</small><h1>Tools sederhana untuk <i>membantu pekerjaanmu.</i></h1><p>Hitung bisnis dan buat konten lebih cepat dari HP maupun komputer.</p><input id="search" placeholder="Cari tools, misalnya: harga jual..."></section><section id="tools" class="wrap section"><div class="head"><h2>Tools Bisnis</h2><span id="count"></span></div><div id="grid" class="grid"></div></section><section id="ai" class="wrap section"><h2>AI Tools</h2><div class="grid"><article class="card" onclick="ai('caption')">✍️<h3>Caption Produk</h3><p>Buat draft caption jualan.</p></article><article class="card" onclick="ai('description')">🛍️<h3>Deskripsi Produk</h3><p>Buat deskripsi produk rapi.</p></article><article class="card" onclick="ai('hashtag')">#️⃣<h3>Ide Hashtag</h3><p>Buat hashtag berdasarkan produk.</p></article></div></section><section class="wrap monet"><h2>Rekomendasi untuk Bisnis</h2><p>Area ini disiapkan untuk affiliate resmi. Kita isi setelah program affiliate aktif.</p><button onclick="alert('Nanti dihubungkan ke affiliate resmi.')">Lihat rekomendasi</button></section><section class="wrap ad">RUANG IKLAN<br><small>Diaktifkan setelah situs memenuhi persyaratan platform iklan.</small></section><section id="faq" class="wrap section"><h2>FAQ</h2><details><summary>Apakah gratis?</summary><p>Tools dasar gratis.</p></details><details><summary>Bagaimana menghasilkan uang?</summary><p>Rencananya melalui affiliate dan iklan.</p></details></section></main><footer><div class="wrap">ToolsKu • Tools gratis untuk bisnis</div></footer><div id="modal" class="modal hidden"><div class="box"><button onclick="closeM()">×</button><div id="body"></div></div></div><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ToolsKu — Kalkulator Bisnis Gratis</title>
+<meta name="description" content="Tools bisnis gratis tanpa daftar: kalkulator untung, harga jual, margin, diskon, BEP, ROI, markup, komisi, target laba, dan alat konten sederhana.">
+<meta name="theme-color" content="#f7f7f5">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#">ToolsKu</a><nav><a href="#tools">Tools</a><a href="#konten">Konten</a><a href="#faq">FAQ</a></nav></div></header>
+<main>
+<section class="hero wrap">
+<small>✦ GRATIS • CEPAT • TANPA DAFTAR</small>
+<h1>Tools sederhana untuk <i>membantu pekerjaanmu.</i></h1>
+<p>Hitung bisnis, siapkan harga jual, dan buat ide konten langsung dari HP.</p>
+<div class="searchbox"><span>⌕</span><input id="search" autocomplete="off" placeholder="Cari tools, misalnya: harga jual..."></div>
+<div class="quick"><a href="#tools">💰 Bisnis</a><a href="#konten">✍️ Konten</a><button onclick="shareSite()">↗ Bagikan ToolsKu</button></div>
+</section>
+
+<section id="tools" class="wrap section">
+<div class="head"><div><h2>Tools Bisnis</h2><p>Alat praktis untuk jualan dan usaha kecil.</p></div><span id="count"></span></div>
+<div id="grid" class="grid"></div>
+</section>
+
+<section id="konten" class="wrap section">
+<div class="head"><div><h2>Tools Konten</h2><p>Draft sederhana untuk membantu promosi produk.</p></div></div>
+<div class="grid content-grid">
+<article class="card" onclick="contentTool('caption')">✍️<h3>Caption Produk</h3><p>Buat draft caption jualan dari nama produk dan keunggulan.</p><b>Gunakan gratis →</b></article>
+<article class="card" onclick="contentTool('description')">🛍️<h3>Deskripsi Produk</h3><p>Buat deskripsi produk yang lebih rapi dan mudah dibaca.</p><b>Gunakan gratis →</b></article>
+<article class="card" onclick="contentTool('hashtag')">#️⃣<h3>Ide Hashtag</h3><p>Generate kumpulan hashtag berdasarkan produk.</p><b>Gunakan gratis →</b></article>
+<article class="card" onclick="contentTool('hook')">🎬<h3>Ide Hook Video</h3><p>Buat beberapa pembuka video pendek untuk promosi.</p><b>Gunakan gratis →</b></article>
+</div>
+</section>
+
+<section class="wrap monet">
+<div><small>PELUANG MONETISASI</small><h2>Tools gratis, bisnisnya tetap bisa menghasilkan.</h2><p>Area ini disiapkan untuk tautan affiliate resmi, produk digital, dan ruang iklan setelah memenuhi persyaratan masing-masing platform.</p></div>
+<div class="monet-actions"><a href="#faq">Cara monetisasi →</a><button onclick="copyText(location.href)">Salin link website</button></div>
+</section>
+
+<section class="wrap ad"><span>RUANG IKLAN</span><small>Slot iklan dapat diaktifkan setelah platform iklan menyetujui situs.</small></section>
+
+<section id="faq" class="wrap section faq">
+<h2>Pertanyaan umum</h2>
+<details><summary>Apakah ToolsKu gratis?</summary><p>Ya. Tools dasar di halaman ini dapat digunakan tanpa membuat akun.</p></details>
+<details><summary>Apakah hasil kalkulator disimpan?</summary><p>Tidak. Perhitungan dilakukan di browser pada perangkatmu.</p></details>
+<details><summary>Bagaimana ToolsKu bisa menghasilkan uang?</summary><p>Beberapa model yang dapat digunakan adalah iklan, affiliate resmi, dan penjualan produk digital. Masing-masing memerlukan trafik dan/atau persetujuan program terkait.</p></details>
+<details><summary>Apakah ToolsKu membutuhkan aplikasi khusus?</summary><p>Tidak. Website dapat dibuka melalui browser di HP maupun komputer.</p></details>
+</section>
+</main>
+<footer><div class="wrap"><b>ToolsKu</b><span>Tools gratis untuk bisnis dan konten.</span></div></footer>
+<div id="modal" class="modal hidden"><div class="box"><button class="close" onclick="closeM()" aria-label="Tutup">×</button><div id="body"></div></div></div>
+<div id="toast" class="toast hidden"></div>
+<script src="script.js"></script>
+</body>
+</html>
